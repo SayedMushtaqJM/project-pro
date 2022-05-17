@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-image: url('back\ pic\ 3.jpg');
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+
+nav {
+    float: left;
+    width: 20%;
+    height: 1000px;
+    background-color: rgb(206, 206, 206);
+    background-size: cover;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+
+    nav,
+    article {
+        width: 30%;
+        height: auto;
+    }
+}
+
+h1{
+    font-size: 200%;
+    background-color: rgb(243, 180, 98);
+    height: 1cm;
+    width: 20cm;
+    font-style: italic;
+}
+
+.round{
+    vertical-align: middle;
+    height: 7cm;
+    border-radius: 10%;
+    width: 10cm;
+}
+
+P{
+    font-style: italic;
+    line-height: 30px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 74%;
+    background-size: cover;
+    height: 1000px;
+    background-color: antiquewhite;
+
+
+}
+
+h4 {
+    background-color: rgb(231, 170, 78);
+    background-size: 150%;
+    font-style: italic;
+    color: black;
+    font-size: 150%;
+    height: 1cm;
+    width: 6cm;
+    text-align: center;
+}
+
+
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.imageee {
+    vertical-align: middle;
+    height: 4cm;
+   
+    border-radius: 50%;
+    
+    text-align: left;
+
+}
+
+
+footer {
+    background-color: rgb(37, 34, 34);
+    height: 11cm;
+    
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+    
